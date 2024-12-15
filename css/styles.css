@@ -177,8 +177,7 @@
     --color-btn-text              : var(--color-white);
     --color-btn-hover             : var(--color-white);
     --color-btn-hover-text        : var(--color-black);
-    /* --color-btn-primary           : var(--color-1); */
-    --color-btn-primary           : #ff4b13;
+    --color-btn-primary           : var(--color-1);
     --color-btn-primary-text      : var(--color-white);
     --color-btn-primary-hover     : var(--color-white);
     --color-btn-primary-hover-text: var(--color-black);
@@ -189,7 +188,7 @@
 
     /* others
      */
-    --color-body  : #14171B;
+    --color-body  : var(--color-1);
     --color-bg    : #14171B;
     --color-border: var(--color-gray-17);
 }
@@ -1310,9 +1309,6 @@ textarea {
 }
 
 
-
-
-
 /* ------------------------------------------------------------------- 
  * ## block grids - medium screen devices
  * ------------------------------------------------------------------- */
@@ -1913,7 +1909,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #ff4b13;
+    color: var(--color-1);
 }
 
 dd {
@@ -2367,7 +2363,7 @@ label>input[type="radio"] {
  * ## change autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #ff4b13;
+    -webkit-text-fill-color: var(--color-1);
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
 }
@@ -2431,9 +2427,9 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #ff4b13;
-    border-color: #ff4b13;
-    color: var(--color-btn-primary-text);
+    /* background: var(--color-btn-primary);
+    border-color: var(--color-btn-primary);
+    color: var(--color-btn-primary-text); */
 }
 
 .btn.btn--primary:hover, 
@@ -2705,7 +2701,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-    background: #ff4b13;
+    background: var(--color-1);
     position: relative;
     height: 100%;
 }
@@ -2921,7 +2917,7 @@ input::-moz-focus-inner {
 .section-title h3 {
     z-index: 2;
     font-weight: 500;
-    color: #ff4b13;
+    color: var(--color-1);
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;
@@ -3009,7 +3005,7 @@ input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button, 
 .slick-slider .slick-dots li:hover button {
-    background: #ff4b13;
+    background: var(--color-1);
 }
 
 
@@ -3125,7 +3121,7 @@ input::-moz-focus-inner {
     -webkit-transition: all .5s;
     transition: all .5s;
     position: absolute;
-    left: 8rem;
+    left: 18rem;
     top: calc(50% - 2px);
 }
 
@@ -3137,8 +3133,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 118px;
-    height: 25px;
+    width: 68px;
+    height: 10px;
     margin-bottom: 0;
 }
 
@@ -3168,40 +3164,13 @@ input::-moz-focus-inner {
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
-    color: #ff4b13 !important;
+    color: white !important;
 }
 
 .s-header__nav li {
     display: inline-block;
     padding-left: 0;
     margin: 0 1rem;
-}
-
-
-
-/* ------------------------------------------------------------------- 
- * ## responsive email in footer
- * ------------------------------------------------------------------- */
-.responsive-email {
-    font-size: 6rem; /* Default font size for larger screens */
-}
-
-@media (max-width: 1200px) {
-    .responsive-email {
-        font-size: 3rem; /* Adjust font size for medium screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .responsive-email {
-        font-size: 2.5rem; /* Adjust font size for tablet screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .responsive-email {
-        font-size: 2rem; /* Adjust font size for mobile screens */
-    }
 }
 
 
@@ -3297,7 +3266,6 @@ input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## header contact button
  * ------------------------------------------------------------------- */
- 
 .s-header__content .btn {
     --btn-height: calc(var(--vspace-btn) - 1.2rem);
 
@@ -3572,7 +3540,7 @@ input::-moz-focus-inner {
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
-    color: #ff4b13;
+    color: var(--color-1);
     margin-bottom: 0;
     position: relative;
 }
@@ -3633,7 +3601,7 @@ input::-moz-focus-inner {
 
 .s-hero__content-social a:hover, 
 .s-hero__content-social a:focus {
-    color: #ff4b13;
+    color: var(--color-1-light);
 }
 
 .s-hero__content-social a:last-child {
@@ -3668,7 +3636,7 @@ input::-moz-focus-inner {
     display: block;
     height: 9.6rem;
     width: 9.6rem;
-    background-color: #ff4b13;
+    background-color: var(--color-1);
     -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     color: white;
@@ -3685,11 +3653,6 @@ input::-moz-focus-inner {
 .s-hero__video-text {
     display: none;
 }
-
-
-
-
-
 
 
 /* ------------------------------------------------------------------- 
@@ -4094,7 +4057,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/roadsideMedia.jpeg);
+    background-image: url(../images/about-photo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4127,8 +4090,7 @@ html.no-csstransitions .s-hero__content {
     font-weight: 600;
     text-align: center;
     color: white;
-    /* background-color: var(--color-1); */
-    background-color: #ff4b13;
+    background-color: var(--color-1);
     height: var(--vspace-1_5);
     width: var(--vspace-1_5);
     line-height: var(--vspace-1_5);
@@ -4643,8 +4605,7 @@ html.no-csstransitions .s-hero__content {
 
 .testimonial-slider__cite strong {
     font-size: var(--text-size);
-    /* color: var(--color-1);  */
-    color: #ff4b13;
+    color: var(--color-1);
 }
 
 .testimonial-slider__cite span {
@@ -4736,7 +4697,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: #ff4b13;
+    background-color: var(--color-1);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
 }

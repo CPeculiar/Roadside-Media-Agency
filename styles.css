@@ -177,7 +177,8 @@
     --color-btn-text              : var(--color-white);
     --color-btn-hover             : var(--color-white);
     --color-btn-hover-text        : var(--color-black);
-    --color-btn-primary           : var(--color-1);
+    /* --color-btn-primary           : var(--color-1); */
+    --color-btn-primary           : #ff4b13;
     --color-btn-primary-text      : var(--color-white);
     --color-btn-primary-hover     : var(--color-white);
     --color-btn-primary-hover-text: var(--color-black);
@@ -188,7 +189,7 @@
 
     /* others
      */
-    --color-body  : var(--color-1);
+    --color-body  : #14171B;
     --color-bg    : #14171B;
     --color-border: var(--color-gray-17);
 }
@@ -1909,7 +1910,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: var(--color-1);
+    color: #ff4b13;
 }
 
 dd {
@@ -2363,7 +2364,7 @@ label>input[type="radio"] {
  * ## change autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: var(--color-1);
+    -webkit-text-fill-color: #ff4b13;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
 }
@@ -2427,8 +2428,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: var(--color-btn-primary);
-    border-color: var(--color-btn-primary);
+    background: #ff4b13;
+    border-color: #ff4b13;
     color: var(--color-btn-primary-text);
 }
 
@@ -2701,7 +2702,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-    background: var(--color-1);
+    background: #ff4b13;
     position: relative;
     height: 100%;
 }
@@ -2917,7 +2918,7 @@ input::-moz-focus-inner {
 .section-title h3 {
     z-index: 2;
     font-weight: 500;
-    color: var(--color-1);
+    color: #ff4b13;
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;
@@ -3005,7 +3006,7 @@ input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button, 
 .slick-slider .slick-dots li:hover button {
-    background: var(--color-1);
+    background: #ff4b13;
 }
 
 
@@ -3540,7 +3541,7 @@ input::-moz-focus-inner {
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
-    color: var(--color-1);
+    color: #ff4b13;
     margin-bottom: 0;
     position: relative;
 }
@@ -3636,7 +3637,7 @@ input::-moz-focus-inner {
     display: block;
     height: 9.6rem;
     width: 9.6rem;
-    background-color: var(--color-1);
+    background-color: #ff4b13;
     -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     color: white;
@@ -4057,7 +4058,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    background-image: url(../images/roadsideMedia.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4090,7 +4091,7 @@ html.no-csstransitions .s-hero__content {
     font-weight: 600;
     text-align: center;
     color: white;
-    background-color: var(--color-1);
+    background-color: #ff4b13;
     height: var(--vspace-1_5);
     width: var(--vspace-1_5);
     line-height: var(--vspace-1_5);
@@ -4605,7 +4606,7 @@ html.no-csstransitions .s-hero__content {
 
 .testimonial-slider__cite strong {
     font-size: var(--text-size);
-    color: var(--color-1);
+    color: #ff4b13;
 }
 
 .testimonial-slider__cite span {
@@ -4697,7 +4698,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-1);
+    background-color: #ff4b13;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
 }

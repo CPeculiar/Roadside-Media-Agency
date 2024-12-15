@@ -18,8 +18,6 @@ import Steam from "../images/icons/clients/steam.svg";
 import Spotify from "../images/icons/clients/spotify.svg";
 import Modal from 'react-modal';
 
-import ClientsAndTestimonials from './IconCarousel.jsx';
-
 // Ensure modal is set to the root of your app for accessibility
 Modal.setAppElement('#root'); // Assumes you have a root div in your index.html
 
@@ -89,7 +87,7 @@ useEffect(() => {
             </ul>
           </nav>  
 
-          <a href="https://wa.me/2349031868409" className="btn btn--primary btn--small">
+          <a href="mailto:thelordsbrethrenchurch@gmail.com" className="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                 Get In Touch
             </a>
@@ -120,10 +118,10 @@ useEffect(() => {
 
             <footer>
             <div className="s-hero__content-social">
-                            <a href="https://www.facebook.com/share/1AYdjVx7K1/"><i className="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            {/* <a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a> */}
-                            <a href="https://www.instagram.com/roadsidemediaagency/profilecard/?igsh=MXBzaDlqcnI4emh2Mg=="><i className="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://wa.me/2349031868409"><i className="fab fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i className="fab fa-dribbble" aria-hidden="true"></i></a>
                         </div>
                      </footer>
                    </div>
@@ -320,7 +318,7 @@ useEffect(() => {
 
     <div className="column large-6 w-900-stack s-about__intro-text">
       <h1 className="display-1" data-aos="fade-up">
-      Roadside Media Agency powers corporate media with bold expertise and creative precision.
+      Kenechukwu Media Agency brings a decade of digital expertise to the forefront of corporate media solutions.
       </h1>
 
       <p className="lead" data-aos="fade-up" data-aos-delay="200"> 
@@ -341,33 +339,40 @@ useEffect(() => {
 
         <div className="row block-large-1-2 block-tab-full s-about__process item-list">
             <div className="column item item-process" data-aos="fade-up">
-                <h3 className="item-title">Define</h3>
+                <h3 className="item-title">Vision Statement</h3>
                 <p>
-                We clarify your brand's identity, audience, and goals to build a strong 
-                foundation for impactful media solutions.
+                To become a leading force in redefining corporate media, 
+                inspiring global brands, and driving meaningful connections through innovative
+                 storytelling and cutting-edge media solutions.
                 </p>
             </div>
             <div className="column item item-process" data-aos="fade-up">
-                <h3 className="item-title">Design</h3>
+                <h3 className="item-title">Mission Statement</h3>
                 <p>
-                Our creative team develops tailored branding, visual identity, and studio 
-                layouts that resonate and engage.
+                At Kenechukwu, our mission is to empower organizations with exceptional media 
+                services that build credibility, amplify their message, and foster lasting connections. 
+                Through creativity, professionalism, and a passion for excellence, we deliver 
+                transformative solutions that unlock business potential and redefine corporate communication.
                 </p>
             </div>
             <div className="column item item-process" data-aos="fade-up">
-                <h3 className="item-title">Build</h3>
+                <h3 className="item-title">Executive Summary</h3>
                 <p>
-                We set up and equip your digital studio, providing all the tools for 
-                seamless audio, video, and content production.
-
+                Kenechukwu Media Agency brings a decade of digital expertise to the forefront of corporate
+                 media solutions. With specialization across branding, media coverage, event live streaming,
+                  digital studio setup, and outdoor advertising, we help businesses elevate their presence 
+                  and communication. Our edge lies in combining creative innovation with technical precision,
+                   delivering end-to-end media services tailored to meet the evolving needs of modern organizations.
                 </p>
             </div>
             <div className="column item item-process" data-aos="fade-up">
-                <h3 className="item-title">Launch</h3>
+                <h3 className="item-title">What we do</h3>
                 <p>
-                From live streaming to targeted media strategies, we get your message 
-                out with impact, elevating your brand’s visibility.
-
+                We cater to businesses seeking professional storytelling, brand amplification, and seamless 
+                media production. With a focus on fostering long-term partnerships, we empower our clients to make 
+                a lasting impact in their industries. Whether through media consultation, corporate media training, 
+                or flawless live event streaming, Kenechukwu offers the tools, talent, and technology to connect 
+                brands with their audience.
                 </p>
             </div>
         </div>
@@ -387,15 +392,16 @@ useEffect(() => {
             </div>
             <div className="column large-6 w-900-stack">
                 <h1 className="display-1" data-aos="fade-up">
-                "At Roadside Media Agency, we deliver comprehensive media solutions to 
-                elevate your brand."
+                At Kenechukwu Media Agency, we’ve spent the last 10 years mastering
+                 the art and science of corporate media.
                 </h1>
             </div>
             <div className="column large-6 w-900-stack">
                 <p className="lead" data-aos="fade-up">
-                From dynamic branding and media coverage to state-of-the-art 
-                digital studio setup, live streaming, and expert consultation, we’re your all-in-one
-                 partner for impactful media success. Let's bring your vision to life!
+                From humble beginnings as a digital consultancy, we’ve grown into a 
+                full-service agency that partners with businesses to tell stories that matter.
+                 Our expertise spans across branding, media production, outdoor advertising, 
+                 and live streaming, with one mission: to elevate every brand we work with.
                 </p>
             </div>
         </div>
@@ -405,59 +411,71 @@ useEffect(() => {
                 <span className="service-icon service-icon--product-design"></span>
                 <h3 className="item-title">Branding</h3>
                 <p>
-                Roadside Media Agency crafts unique, compelling brand identities that capture your
-                 vision, resonate with audiences, and strengthen your brand’s impact across all digital 
-                 and physical platforms.
+                Crafting your identity, building your reputation.
+                We design brand experiences that resonate with your audience, 
+                creating visual identities and messaging strategies that align 
+                with your business goals. From logos to full brand development, 
+                we help establish a distinctive presence.
                 </p>
             </div>
-
-                <div className="column item item-service" data-aos="fade-up">
+            <div className="column item item-service" data-aos="fade-up">
+                <span className="service-icon service-icon--branding"></span>
+                <h3 className="item-title">Media Coverage</h3>
+                <p>
+                Capturing moments, amplifying your message.
+                Our media coverage solutions ensure that your events and 
+                initiatives receive the visibility they deserve. We work closely 
+                with top media outlets to deliver strategic coverage that boosts 
+                your brand.
+                </p>
+            </div>
+            <div className="column item item-service" data-aos="fade-up">
                 <span className="service-icon service-icon--frontend"></span>
                 <h3 className="item-title">Digital Studio Setup</h3>
                 <p>
-                We design, build, and equip professional audio and video studios for both home and 
-                corporate environments, ensuring seamless production quality for podcasts, YouTube channels,
-                 and more.
+                Turn ideas into content with ease.
+                We set up world-class studios for podcasting, audio, and 
+                video production. Whether you’re launching a corporate podcast or 
+                need a space for multimedia production, our expertise ensures a 
+                professional environment that fosters creativity.
                 </p>
             </div>
-
             <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--illustration"></span>
-                <h3 className="item-title">Event Live Streaming & Setup</h3>
-                <p>
-                From conferences to product launches, Roadside provides full live-streaming services, 
-                offering high-quality video, sound, and real-time audience engagement to bring your events 
-                to a global stage.
-                </p>
-            </div>
-
-
-            <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--branding"></span>    
-                <h3 className="item-title">Media Coverage</h3>
-                <p>
-                Our team provides expert media coverage for your events and corporate activities, 
-                capturing moments that showcase your brand’s story and achievements to the world.
-                </p>
-            </div>
-
-
-            <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--research"></span>
+                <span className="service-icon service-icon--research"></span>
                 <h3 className="item-title">Outdoor Advertising</h3>
                 <p>
-                We create attention-grabbing outdoor ad campaigns that connect with your audience, 
-                strategically placing your message for maximum visibility and impact across prime 
-                locations.
+                Make a statement with every display.
+                Our outdoor advertising services offer impactful ways to 
+                capture attention and engage your audience. We provide solutions 
+                from billboards to digital signage that strategically connect 
+                with your target market.
+                </p>
+            </div>
+            <div className="column item item-service" data-aos="fade-up">
+                <span className="service-icon service-icon--illustration"></span>
+                <h3 className="item-title">Event Live Streaming & Setup</h3>
+                <p>
+                Reach audiences beyond the venue.
+                We specialize in delivering flawless live streaming experiences 
+                for events, conferences, and corporate gatherings. With reliable 
+                equipment and technical expertise, we ensure that your message 
+                reaches global audiences in real-time.
                 </p>
             </div>
             <div className="column item item-service" data-aos="fade-up">
                 <span className="service-icon service-icon--ecommerce"></span>
-                <h3 className="item-title">Media Consultation</h3>
+                <h3 className="item-title">Media Consultation and Training</h3>
                 <p>
-                Roadside offers professional media consultations, helping you strategize and execute 
-                effective media solutions that align with your brand’s goals and elevate your presence
-                 in the market.
+                Expert advice for media success.
+                Our consulting services help organizations navigate 
+                the complex media landscape. We provide insights on 
+                media strategies, content planning, and emerging trends 
+                to position your brand for growth. <br/>
+                Also, Equip your team with media mastery.
+                We offer tailored media training programs to enhance 
+                communication skills, media literacy, and public engagement 
+                for corporate teams. From media interviews to content creation, 
+                we empower your staff to represent your brand confidently.
                 </p>
             </div>
         </div>
@@ -465,21 +483,166 @@ useEffect(() => {
 
 
 
+
+
+    {/* <section id="portfolio" class="s-portfolio">
+
+<div class="row s-porfolio__top">
+    <div class="column large-6 w-900-stack">
+        <div class="section-title" data-num="03" data-aos="fade-up">
+            <h3 class="h6">Recent Works</h3>
+        </div>
+    </div>
+    <div class="column large-6 w-900-stack">
+        <h1 class="display-1" data-aos="fade-up">
+            Here are some of our projects we done lately. Feel
+            free to check them out.
+        </h1>
+    </div>
+</div> 
+
+<div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel.jpg" title="The Red Wheel" data-size="1050x700">
+                    <img src="images/portfolio/red-wheel.jpg" 
+                         srcset="images/portfolio/red-wheel.jpg 1x, images/portfolio/red-wheel@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Branding</div>
+                <h4 class="folio-item__title">The Red Wheel</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
+                    <img src="images/portfolio/music-life.jpg" 
+                         srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Frontend Design</div>
+                <h4 class="folio-item__title">Music Life</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
+                    <img src="images/portfolio/oi-logo.jpg.jpg" 
+                         srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Branding</div>
+                <h4 class="folio-item__title">OI Logo</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div> 
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
+                    <img src="images/portfolio/corrugated-sheets.jpg" 
+                         srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Frontend Design</div>
+                <h4 class="folio-item__title">Corrugated Sheets</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="../images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
+                    <img src="../images/portfolio/woodcraft.jpg" 
+                         srcset="../images/portfolio/woodcraft.jpg 1x, ../images/portfolio/woodcraft@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Frontend Design</div>
+                <h4 class="folio-item__title">Wooocraft</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
+                Project Link
+            </a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div> 
+    <div class="column" data-aos="fade-up">
+        <div class="folio-item">
+            <div class="folio-item__thumb">
+                <a class="folio-item__thumb-link" href="../images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
+                    <img src="../images/portfolio/lamp.jpg" 
+                         srcset="../images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="" />
+                </a>
+            </div>
+            <div class="folio-item__info">
+                <div class="folio-item__cat">Frontend Design</div>
+                <h4 class="folio-item__title">The Lamp</h4>
+            </div>
+            <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+            <div class="folio-item__caption">
+                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+            </div>
+        </div>
+    </div> 
+
+</div> 
+
+</section> */}
+
+
+
+
+
+
+
+
+
+
     {/* clients
     ================================================== */}
-  
+    <div id="clients" className="section s-clients">
 
-   
-               
-           
-<ClientsAndTestimonials />
- 
+        <div className="row narrower s-clients__top h-text-center">
+            <div className="column">
+                <h1 className="display-1" data-aos="fade-up">
+                We've had the priveledge with working with
+                some of the largest and most iconic brands
+                </h1>
+            </div>
+        </div> 
 
-
-        
-        {/* <div class="row clients-outer">
-            <div class="column">
-                <div class="clients" data-aos="fade-up">
+        <div className="row clients-outer">
+            <div className="column">
+                <div className="clients" data-aos="fade-up">
 
                     <a href="#0" title="" className="clients__slide"><img src={Dropbox} /></a>
                     <a href="#0" title="" className="clients__slide"><img src={Atom} /></a>
@@ -491,18 +654,15 @@ useEffect(() => {
                     <a href="#0" title="" className="clients__slide"><img src={Spotify} /></a>              
                 </div> 
             </div> 
-        </div>  */}
+        </div> 
 
-        {/* <div className="row testimonials collapse">
+        <div className="row testimonials collapse">
             <div className="column large-12">
                 <div className="testimonial-slider" data-aos="fade-up">
 
                     <div className="testimonial-slider__slide">
                         <p>
                       1st Testimony aboout the brand
-                      We create attention-grabbing outdoor ad campaigns that connect with your audience, 
-                strategically placing your message for maximum visibility and impact across prime 
-                locations.
                         </p>
                         <div className="testimonial-slider__author">
                             <img src="../images/avatars/user-02.jpg" alt="Author image" className="testimonial-slider__avatar" />
@@ -516,9 +676,6 @@ useEffect(() => {
                     <div className="testimonial-slider__slide">
                         <p>
                         2nd Testimony aboout the brand
-                        We create attention-grabbing outdoor ad campaigns that connect with your audience, 
-                strategically placing your message for maximum visibility and impact across prime 
-                locations.
                         </p>
                         <div className="testimonial-slider__author">
                             <img src="../images/avatars/user-01.jpg" alt="Author image" className="testimonial-slider__avatar" />
@@ -532,9 +689,6 @@ useEffect(() => {
                     <div className="testimonial-slider__slide">
                         <p>
                         3rd Testimony aboout the brand
-                        We create attention-grabbing outdoor ad campaigns that connect with your audience, 
-                strategically placing your message for maximum visibility and impact across prime 
-                locations.
                         </p>
                         <div className="testimonial-slider__author">
                             <img src="images/avatars/user-04.jpg" alt="Author image" className="testimonial-slider__avatar" />
@@ -548,9 +702,6 @@ useEffect(() => {
                     <div className="testimonial-slider__slide">
                         <p>
                         4th Testimony aboout the brand
-                        We create attention-grabbing outdoor ad campaigns that connect with your audience, 
-                strategically placing your message for maximum visibility and impact across prime 
-                locations.
                         </p>
                         <div className="testimonial-slider__author">
                             <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar" />
@@ -562,8 +713,8 @@ useEffect(() => {
                     </div> 
                 </div>             
             </div>
-        </div> */}
-    
+        </div>
+    </div> 
 
 
 
@@ -576,7 +727,7 @@ useEffect(() => {
             <div className="column">
                 <h3 className="h6">Get In Touch</h3>
                 <h1 className="display-1">
-                Let’s Build Something Great Together! <br/> Have a project 
+                Let’s Build Something Great Together! Have a project 
                 in mind? Contact us today and let’s explore how we 
                 can elevate your brand.
                 </h1>
@@ -586,7 +737,7 @@ useEffect(() => {
         <div className="row h-text-center">
             <div className="column">
                 <p className="s-contact__email">
-                    <a href="mailto:roadsidemediaagency@outlook.com" className='responsive-email'>roadsidemediaagency@outlook.com</a>
+                    <a href="mailto:kenechukwu@gmail.com">kene@gmail.com</a>
                 </p>
             </div>
         </div>
@@ -602,7 +753,7 @@ useEffect(() => {
             <div className="column large-8 medium-12">
                 <div className="row">
                     <div className="column large-7 tab-12 s-footer__block">
-                        <h4 className="h6" style={{color: '#ff4b13'}}>Where to Find Us</h4>
+                        <h4 className="h6">Where to Find Us</h4>
         
                         <p>
                         3 Sen. Uche Ekwunife Crescent, <br />
@@ -613,24 +764,24 @@ useEffect(() => {
                     </div>
         
                     <div className="column large-5 tab-12 s-footer__block">
-                        <h4 className="h6" style={{color: '#ff4b13'}}>Follow Us</h4>
+                        <h4 className="h6">Follow Us</h4>
         
                         <ul className="s-footer__list">
-                            <li><a href="https://www.facebook.com/share/1AYdjVx7K1/">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/roadsidemediaagency/profilecard/?igsh=MXBzaDlqcnI4emh2Mg==">Instagram</a></li>
-                            <li><a href="mailto:roadsidemediaagency@outlook.com">Email</a></li>
-                            <li><a href="https://wa.me/2349031868409">WhatsApp</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">TikTok</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div className="column large-4 medium-12 s-footer__block--end">
-                <a href="https://wa.me/2349031868409" className="btn h-full-width">Let's Talk</a>
+                <a href="mailto:#0" className="btn h-full-width">Let's Talk</a>
 
                 <div className="ss-copyright">
-                    <span>Copyright Roadside Media Agency 2024</span> 
-                    <span>Design by <a href="https://wa.me/2349031868409">Roadside</a> Media <a href="/">Agency</a></span>
+                    <span>Copyright Kenechukwu 2024</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">Kenechukwu</a> Media <a href="https://themewagon.com">Agency</a></span>
                 </div>
             </div>
 
