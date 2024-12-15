@@ -29,9 +29,6 @@ import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 import { faUserTie } from '@fortawesome/free-solid-svg-icons';
 
 
-
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-
 import ClientsAndTestimonials from './IconCarousel.jsx';
 
 // Ensure modal is set to the root of your app for accessibility
