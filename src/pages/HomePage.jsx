@@ -18,6 +18,20 @@ import Steam from "../images/icons/clients/steam.svg";
 import Spotify from "../images/icons/clients/spotify.svg";
 import Modal from 'react-modal';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAward } from '@fortawesome/free-solid-svg-icons';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faBroadcastTower } from '@fortawesome/free-solid-svg-icons';
+import { faCameraRetro } from '@fortawesome/free-solid-svg-icons';
+import { faAd } from '@fortawesome/free-solid-svg-icons';
+import { faComments } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
+import { faUserTie } from '@fortawesome/free-solid-svg-icons';
+
+
+
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+
 import ClientsAndTestimonials from './IconCarousel.jsx';
 
 // Ensure modal is set to the root of your app for accessibility
@@ -123,7 +137,7 @@ useEffect(() => {
                             <a href="https://www.facebook.com/share/1AYdjVx7K1/"><i className="fab fa-facebook-f" aria-hidden="true"></i></a>
                             {/* <a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a> */}
                             <a href="https://www.instagram.com/roadsidemediaagency/profilecard/?igsh=MXBzaDlqcnI4emh2Mg=="><i className="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://wa.me/2349031868409"><i className="fab fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="https://wa.me/2349031868409"><i className="fab fa-whatsapp" aria-hidden="true"></i></a>
                         </div>
                      </footer>
                    </div>
@@ -402,7 +416,8 @@ useEffect(() => {
 
         <div className="row block-large-1-2 block-tab-full s-services__services item-list">
             <div className="column item item-service" data-aos="fade-up">
-                <span className="service-icon service-icon--product-design"></span>
+            {/* <span className="service-icon service-icon--product-design"></span> */}
+            <FontAwesomeIcon icon={faAward} className='servicess-icons' />
                 <h3 className="item-title">Branding</h3>
                 <p>
                 Roadside Media Agency crafts unique, compelling brand identities that capture your
@@ -412,7 +427,8 @@ useEffect(() => {
             </div>
 
                 <div className="column item item-service" data-aos="fade-up">
-                <span className="service-icon service-icon--frontend"></span>
+                {/* <span className="service-icon service-icon--frontend"></span> */}
+                <FontAwesomeIcon icon={faVideo} className='servicess-icons' />
                 <h3 className="item-title">Digital Studio Setup</h3>
                 <p>
                 We design, build, and equip professional audio and video studios for both home and 
@@ -422,7 +438,8 @@ useEffect(() => {
             </div>
 
             <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--illustration"></span>
+            {/* <span className="service-icon service-icon--illustration"></span> */}
+            <FontAwesomeIcon icon={faBroadcastTower} className='servicess-icons' />
                 <h3 className="item-title">Event Live Streaming & Setup</h3>
                 <p>
                 From conferences to product launches, Roadside provides full live-streaming services, 
@@ -433,7 +450,8 @@ useEffect(() => {
 
 
             <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--branding"></span>    
+            {/* <span className="service-icon service-icon--branding"></span>     */}
+            <FontAwesomeIcon icon={faCameraRetro} className='servicess-icons' />
                 <h3 className="item-title">Media Coverage</h3>
                 <p>
                 Our team provides expert media coverage for your events and corporate activities, 
@@ -443,7 +461,8 @@ useEffect(() => {
 
 
             <div className="column item item-service" data-aos="fade-up">
-            <span className="service-icon service-icon--research"></span>
+            {/* <span className="service-icon service-icon--research"></span>n */}
+            <FontAwesomeIcon icon={faAd} className='servicess-icons' />
                 <h3 className="item-title">Outdoor Advertising</h3>
                 <p>
                 We create attention-grabbing outdoor ad campaigns that connect with your audience, 
@@ -452,7 +471,8 @@ useEffect(() => {
                 </p>
             </div>
             <div className="column item item-service" data-aos="fade-up">
-                <span className="service-icon service-icon--ecommerce"></span>
+                {/* <span className="service-icon service-icon--ecommerce"></span> */}
+                <FontAwesomeIcon icon={faHandshake} className='servicess-icons' />
                 <h3 className="item-title">Media Consultation</h3>
                 <p>
                 Roadside offers professional media consultations, helping you strategize and execute 
@@ -476,22 +496,7 @@ useEffect(() => {
  
 
 
-        
-        {/* <div class="row clients-outer">
-            <div class="column">
-                <div class="clients" data-aos="fade-up">
 
-                    <a href="#0" title="" className="clients__slide"><img src={Dropbox} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Atom} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Github} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Redhat} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Medium} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Messenger} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Steam} /></a>
-                    <a href="#0" title="" className="clients__slide"><img src={Spotify} /></a>              
-                </div> 
-            </div> 
-        </div>  */}
 
         {/* <div className="row testimonials collapse">
             <div className="column large-12">

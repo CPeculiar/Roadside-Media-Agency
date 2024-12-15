@@ -5,8 +5,6 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import './ClientsSection.css';
 
-// import $ from 'jquery';
-
 import TFN from "/TFN.png";
 import LaVida from "/LaVida.png";
 import WISSENSCHAFT from "/WISSENSCHAFT.png";
@@ -26,7 +24,7 @@ const ClientsAndTestimonials = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [
           {
             breakpoint: 1000,
@@ -51,25 +49,25 @@ const ClientsAndTestimonials = () => {
         ],
       };
     
-      const testimonialSettings = {
-        dots: false,
-        arrows: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        pauseOnHover: false,
-        responsive: [
-          {
-            breakpoint: 600,
-            settings: {
-              arrows: false,
-              dots: true,
-            },
-          },
-        ],
-      };
+    //   const testimonialSettings = {
+    //     dots: false,
+    //     arrows: true,
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 1500,
+    //     pauseOnHover: false,
+    //     responsive: [
+    //       {
+    //         breakpoint: 600,
+    //         settings: {
+    //           arrows: false,
+    //           dots: true,
+    //         },
+    //       },
+    //     ],
+    //   };
     
 
   return (
@@ -127,7 +125,7 @@ const ClientsAndTestimonials = () => {
         </div>
       </div> */}
 
-{/* <TestimonialCarousel /> */}
+<TestimonialCarousel />
 
 
     </div>

@@ -4253,6 +4253,15 @@ html.no-csstransitions .s-hero__content {
     background-image: url(../images/icons/services/icon-ecommerce.svg);
 }
 
+.servicess-icons {
+    display: block;
+    width: calc(2.25 * var(--space));
+    height: calc(2.25 * var(--space));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #ff4b13;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
